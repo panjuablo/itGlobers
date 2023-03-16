@@ -1,0 +1,51 @@
+.nap {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+img {
+    width: 100%;
+}
+
+.description {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.cont {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.shop {
+    position: absolute;
+    left: 20em;
+
+}
+
+.imageNap {
+    width: 25%;
+    margin: 15px;
+}
+
+.divsito {
+    border-bottom: solid 1px gray;
+    width: 5%;
+    height: 10px;
+    margin: 15px;
+
+}
+
+h5 {
+    color: gray;
+    margin: 15px;
+    font-size: small;
+    text-align: center;
+}
+
+p {
+    font-size: small;
+}
